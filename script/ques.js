@@ -213,3 +213,15 @@ if(convertedAlert === 0 ){
     alert();
 }
 
+
+
+
+const date = new Date();
+const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+const day = date.getDate();
+const month = months[date.getMonth()];
+const year = date.getFullYear()
+const week = date.toLocaleString("en-US", {weekday: "short"});
+document.getElementById("current-date").innerHTML = week + ",<br>" + month + " " + day + " " + year;
+
+
