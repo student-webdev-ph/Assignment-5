@@ -31,14 +31,6 @@ img.addEventListener('click', function(){
 })
 
 
-
-// const img = document.getElementById("colors").addEventListener('click', function () {
-//     const randomColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
-//     document.body.style.backgroundColor = randomColor;
-// })
-
-
-
       //btn1
     const btn1 = document.getElementById('btn1').addEventListener('click', function(){
     const task = document.getElementById('task').innerText;
